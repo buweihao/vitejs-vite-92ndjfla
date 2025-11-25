@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* 自定义光线流动动画 */
+@keyframes dash {
+    from {
+      stroke-dashoffset: 20;
+    }
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  
+  .animate-dash path, 
+  .animate-dash line {
+    animation: dash 1s linear infinite;
+  }
