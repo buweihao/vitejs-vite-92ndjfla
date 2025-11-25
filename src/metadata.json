@@ -1,0 +1,5 @@
+{
+  "name": "VisionOptics - Lighting Logic Explainer",
+  "description": "An interactive educational application explaining the core physics of machine vision lighting: Bright Field vs. Dark Field.",
+  "requestFramePermissions": []
+}
